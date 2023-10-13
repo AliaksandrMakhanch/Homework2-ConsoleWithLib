@@ -6,4 +6,14 @@
     <RootNamespace>Homework2_ConsoleWithLib</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove=".cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="HomeworkClassLibrary">
+      <HintPath>..\..\HomeworkClassLibrary\HomeworkClassLibrary\bin\Debug\netcoreapp3.1\HomeworkClassLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
